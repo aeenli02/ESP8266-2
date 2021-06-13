@@ -2,8 +2,8 @@ ESP8266_ThingSpeak.initialize_wifi(
 SerialPin.P0,
 SerialPin.P1,
 BaudRate.BaudRate115200,
-"your_ssid",
-"your_pw"
+"nk_ssid",
+"nk_pw"
 )
 basic.forever(function () {
     ESP8266_ThingSpeak.connect_thingspeak(
