@@ -1,5 +1,5 @@
 /**
- * MakeCode extension for ESP8266 Wifi modules and ThinkSpeak website https://thingspeak.com/
+ * MakeCode extension for ESP8266 Wifi modules and ThinkSpeak
  */
 //% color=#009b5b icon="\uf1eb" block="ESP8266 ThingSpeak"
 namespace ESP8266ThingSpeak_NK {
