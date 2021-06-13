@@ -39,8 +39,8 @@ namespace ESP8266ThingSpeak_NK {
     //% block="Initialize ESP8266|RX (Tx of micro:bit) %tx|TX (Rx of micro:bit) %rx|Baud rate %baudrate|Wifi SSID = %nkssid|Wifi PW = %nkpw"
     //% tx.defl=SerialPin.P0
     //% rx.defl=SerialPin.P1
-    //% ssid.defl=your_ssid
-    //% pw.defl=your_pw
+    //% ssid.defl=nk_ssid
+    //% pw.defl=nk_pw
     export function connectWifi(tx: SerialPin, rx: SerialPin, baudrate: BaudRate, ssid: string, pw: string) {
         wifi_connected = false
         thingspeak_connected = false
